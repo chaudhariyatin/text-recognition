@@ -24,9 +24,9 @@ const BottomTabsNavigator = () => {
         name="Home"
         component={Home}
         options={{
-          tabBarLabel: 'Home',
+          tabBarLabel: 'Scan',
           tabBarIcon: ({color}) => (
-            <MaterialCommunityIcons name="home" color={color} size={26} />
+            <MaterialCommunityIcons name="eye" color={color} size={26} />
           ),
         }}
       />
